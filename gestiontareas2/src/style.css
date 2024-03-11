@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f0f0f0; /* Light gray background for the header */
+    padding: 10px 20px; /* Add some padding for spacing */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align logo and menu vertically */
+  }
+  
+  .logo {
+    width: 100px; /* Set a width for the logo */
+  }
+  
+  nav {
+    margin-left: auto; /* Move the navigation menu to the right side */
+  }
+  
+  nav ul {
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  nav li {
+    display: inline-block; /* Display menu items side-by-side */
+    margin-right: 20px; /* Add some space between menu items */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set text color */
+  }
+  
